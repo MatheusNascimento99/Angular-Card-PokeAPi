@@ -5,7 +5,7 @@
 Este foi mais um projeto super interessante e divertido de fazer, abordando Services e suas interações no framework Angular, o qual é muito bom e rico em vários aspectos. Nessa brincadeira, realizei requisições para a PokeApi (https://pokeapi.co/) , que está disponível gratuitamente para todos. Após a chamada da requisição e o retorno, tratei os dados mais relevantes, criando uma espécie de Pokédex, conhecida tipicamente. É possível buscar os Pokémon pelo nome ou pelo ID, fica a seu critério. A brincadeira é simples, mas bem divertida e prática; aprender com diversão é sempre mais benéfico.
 <br>
 <br>
-Entra no link abaixo para conferir:
+
 <br>
 
 <br>

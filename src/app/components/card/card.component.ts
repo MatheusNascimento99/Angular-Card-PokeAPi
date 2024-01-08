@@ -17,25 +17,30 @@ export class CardComponent implements OnInit {
     },
     types:[]
   }
-  atributesTypes:string [] = ['FIRE', 'ROCK'] 
   constructor(
     private service:PokemonServiceService
   ) { }
 
   ngOnInit(): void {
-    this.service.getPokemon("charizard").subscribe({ //!subscrible serve para acessar o observable
-      next: (res) => {
-        this.pokemon = {
-          id:res.id,
-          name:res.name,
-          sprites:res.sprites,
-          types:res.types
-
-        }
-        
-      },
-      error: (err) => console.log(err)
-    }) //*getPokemon é uma função que está no service, aqui eu apenas injeto ela e uso
+    this.getPokemon("pikachu")
   }
+
+
+getPokemon(searchName:string){
+  this.service.getPokemon(searchName).subscribe({ //!subscrible serve para acessar o observable
+    next: (res) => {
+      this.pokemon = {
+        id:res.id,
+        name:res.name,
+        sprites:res.sprites,
+        types:res.types
+
+      }
+      
+    },
+    error: (err) => console.log('not found')
+  }) //*getPokemon é uma função que está no service, aqui eu apenas injeto ela e uso
+  console.log(searchName)
+}
 
 }

@@ -1,7 +1,21 @@
+.total{
+    background-color: rgb(151, 208, 190);
+    height: 645px;
+}
+
+.total h1{
+    padding-top: 30px;
+    font-weight: bold;
+    font-size: 35px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
 .card{
-    border: 1px solid black;
+    border: 2px solid #232323;
     width: 300px;
     height: 500px;
+    margin:auto;
+    justify-content: center;
 
     display: flex;
     flex-direction: column;
@@ -27,6 +41,10 @@
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+.card__body img{
+    height: 300px;
 }
 
 .card__stats{

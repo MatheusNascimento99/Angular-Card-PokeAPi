@@ -1,3 +1,31 @@
+# Angular Pokedex
+
+## Fala galera!
+<br>
+Este foi mais um projeto super interessante e divertido de fazer, abordando Services e suas interações no framework Angular, o qual é muito bom e rico em vários aspectos. Nessa brincadeira, realizei requisições para a PokeApi (https://pokeapi.co/) , que está disponível gratuitamente para todos. Após a chamada da requisição e o retorno, tratei os dados mais relevantes, criando uma espécie de Pokédex, conhecida tipicamente. É possível buscar os Pokémon pelo nome ou pelo ID, fica a seu critério. A brincadeira é simples, mas bem divertida e prática; aprender com diversão é sempre mais benéfico.
+<br>
+<br>
+Entra no link abaixo para conferir:
+<br>
+
+<br>
+
+## Buscando Pokemon pelo id:
+![image](https://github.com/MatheusNascimento99/Angular-Card-PokeAPi/assets/139829100/ba4c77b9-943b-4269-b8f8-f3e7bae252e6)
+<br>
+![image](https://github.com/MatheusNascimento99/Angular-Card-PokeAPi/assets/139829100/52c4622b-7cc2-4e6e-b2c5-0c5e1509a36d)
+## Buscando Pokemon pelo nome:
+![image](https://github.com/MatheusNascimento99/Angular-Card-PokeAPi/assets/139829100/36c86da4-6008-498d-9c15-0b37edfca077)
+<br>
+![image](https://github.com/MatheusNascimento99/Angular-Card-PokeAPi/assets/139829100/2ea3b97c-a10c-4e36-8b16-2d2c30ac4b06)
+
+
+<br>
+<br>
+
+
+
+Abaixo, algumas configurações padrão, do Angular:
 # C11
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.1.2.
